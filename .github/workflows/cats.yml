@@ -1,11 +1,12 @@
 name: Cats 😺
 
-on:
-  pull_request_target:
-    types:
-      - opened
-      - reopened
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request_target:
+#     types:
+#       - opened
+#       - reopened
+# 
 jobs:
   aCatForCreatingThePullRequest:
     name: A cat for your effort!

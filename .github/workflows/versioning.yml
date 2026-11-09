@@ -1,9 +1,10 @@
 name: Versioning
 
-on:
-  release:
-    types: [published, edited]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   release:
+#     types: [published, edited]
+# 
 jobs:
   updateMajorTag:
     name: Update major tag
